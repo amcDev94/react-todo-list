@@ -1,5 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
+// import FetchExample from "./components/pure/FetchExample";
+// import LoginFormik from "./components/pure/forms/loginFormik";
+// import RegisterFormik from "./components/pure/forms/registerFormik";
+// import OptionalRender from "./components/pure/optionalRender";
 // import Father from "./components/container/father";
 // import GreetingStyled from "./components/pure/greetingStyled";
 // import GreetingF from "./components/pure/greetingF";
@@ -32,6 +36,15 @@ function App() {
       {/* </header> */}
       {/* Gestión de eventos */}
       {/* <Father></Father> */}
+      {/* Ejemplos de renderizado condicional */}
+      {/* <OptionalRender></OptionalRender> */}
+
+      {/* Ejemplos de uso de Formik y Yup */}
+      {/* <LoginFormik></LoginFormik> */}
+      {/* <RegisterFormik></RegisterFormik> */}
+      {/* <FetchExample /> */}
+
+      {/* PROYECTO FINAL */}
       <TaskListComponent></TaskListComponent>
     </div>
   );
